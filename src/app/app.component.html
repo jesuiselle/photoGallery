@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let img of result">
+        <h3>{{img.title}}</h3>
+        <img id="myImg" [src]="img.url" alt="" style="size:100px">
+        <p>{{img.description}}</p>
+    </div>
+  </div>
+</div>
